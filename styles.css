@@ -60,3 +60,28 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #ddd;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    form {
+        margin-bottom: 10px;
+    }
+
+    label, select, button {
+        margin-bottom: 5px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
