@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проверка наличия товаров</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Проверка наличия товаров</h1>
+<form id="productForm">
+    <label for="productName">Выберите товар:</label>
+    <select id="productName">
+    </select>
+    <button type="button" id="addProductBtn">Добавить</button>
+    <button type="submit" id="checkAvailabilityBtn">Проверить наличие</button>
+</form>
+<div id="result"></div>
+
+<ul id="selectedProductsList"></ul>
+
+<table id="productTable">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Товар</th>
+        <th>Описание</th>
+        <th>Доступное количество</th>
+    </tr>
+    </thead>
+    <tbody id="productTableBody">
+    </tbody>
+</table>
+
+<script src="index.js"></script>
+</body>
+</html>
